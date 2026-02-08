@@ -22,7 +22,9 @@ revealOnScroll();
 const words = [
   "Web Designer",
   "Frontend Developer",
-  "Creative Problem Solver"
+  "Creative Problem Solver",
+  "UI/UX Designer",
+  "Graphic Designer",
 ];
 
 let wordIndex = 0;
@@ -58,4 +60,5 @@ document.querySelector(".contact-form").addEventListener("submit", e => {
   e.preventDefault();
   alert("Message sent successfully!");
 });
+
  
